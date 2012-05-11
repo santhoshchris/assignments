@@ -4,7 +4,7 @@ _Twenty Thousand Leagues Under the Sea_ is a classic science fiction novel by Fr
 
 ![20,000 Leages under the Sea](http://upload.wikimedia.org/wikipedia/commons/4/4e/20000_title_0a.jpg "by Jules Verne")
 
-## * [Wikipedia entry] (http://en.wikipedia.org/wiki/Twenty_Thousand_Leagues_Under_the_Sea)
+##[•Wikipedia entry] (http://en.wikipedia.org/wiki/Twenty_Thousand_Leagues_Under_the_Sea)
 
 ##Excerpt
 
