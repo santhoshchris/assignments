@@ -26,6 +26,6 @@ _s'Jules Gabrielss Verne_s' (February 8, 1828 – March 24, 1905) was a French aut
 
 Other books by Jules Verne
 
-	1.	[A Journey to the Centre of the Earth](http://en.wikipedia.org/wiki/A_Journey_to_the_Center_of_the_Earth)
+	1.	[Wikipedia entry](http://en.wikipedia.org/wiki/Jules_Verne) 
 	2.	[Around the World in Eighty Days](http://en.wikipedia.org/wiki/Around_the_World_in_Eighty_Days)
 
