@@ -20,7 +20,7 @@ For some time past vessels had been met by "an enormous thing," a long object, s
 
 ###About Jules Verne
 
-_s'Jules Gabrielss Verne_s' (February 8, 1828 – March 24, 1905) was a French author who pioneered the science fiction genre. Verne wrote about space, air, and underwater travel before air travel and practical submarines were invented, and before practical means of space travel had been devised.
+*s Jules Gabrielss Verne (February 8, 1828 – March 24, 1905) was a French author who pioneered the science fiction genre. Verne wrote about space, air, and underwater travel before air travel and practical submarines were invented, and before practical means of space travel had been devised.
 
 •[Wikipedia entry](http://en.wikipedia.org/wiki/Jules_Verne) 
 
