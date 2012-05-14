@@ -14,5 +14,3 @@ alert('Welcome to the letter game eh');
 
 		document.write('<br>');
 };
-
-letterLooper();
