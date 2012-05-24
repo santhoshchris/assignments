@@ -1,0 +1,23 @@
+body{
+	background:#960;
+	
+}
+
+div{
+	text-align:center;
+	background:#FFF;
+	width:500px;
+	height:500px;
+	margin:auto;
+	padding:10px;
+	
+}
+
+.strikedout {
+	color: #999;
+	text-decoration: line-through;
+}
+
+li {
+	cursor: pointer;
+}
