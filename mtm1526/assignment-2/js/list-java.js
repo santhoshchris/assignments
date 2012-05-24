@@ -1,4 +1,4 @@
-var todos = document.getElementById('todos');
+var todos = document.getElementById('todolist');
 var item = document.getElementById('item');
 
 document.getElementsByTagName('form')[0].addEventListener('submit', function (e) {
