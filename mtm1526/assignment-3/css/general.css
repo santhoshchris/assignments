@@ -1,0 +1,21 @@
+body {
+	font:Verdana, Geneva, sans-serif;
+}
+
+#circle{
+	
+	height: 500px;
+	width: 500px;
+	border-radius: 500px;
+	
+	bottom: 50%;
+	background-color: #bad600;
+	border: 25px solid #06F;
+	
+	font-size: 8em;
+	font-weight: bold;
+	line-height: 175px;
+	text-align: center;
+	vertical-align: middle;
+}
+
