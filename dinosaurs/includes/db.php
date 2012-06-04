@@ -6,7 +6,7 @@
 //This is for security, so they are never publicly visable
 
 $user = getenv('DB_USER'); 
-$pass = getenv('DB PASS');
+$pass = getenv('DB_PASS');
 $data_source = getenv('DATA_SOURCE');
 
 //PDO: PHP Data Objects
