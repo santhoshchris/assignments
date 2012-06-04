@@ -21,6 +21,7 @@ $results = $sql-> fetchALL();
 </head>
 <body>
 	<?php foreach ($results as $dino): ?>
+    <h2><a href="single.php?id=<?php echo $dino ['id']; ?>">
     <h2><?php echo $dino ['loves_meat'] ?> </dd>
     <dt>In Jurassic Park </dt>
     <dd><?php echo $dino ['in_jurassic_park']; ?> </dd>
