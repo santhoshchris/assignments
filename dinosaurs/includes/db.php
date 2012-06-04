@@ -5,11 +5,9 @@
 
 //This is for security, so they are never publicly visable
 
-$user = getenv ('DB_USER'); 
-$pass = getenv ('DB PASS');
+$user = getenv('DB_USER'); 
+$pass = getenv('DB PASS');
 $data_source = getenv('DATA_SOURCE');
-
-$data_source = 'mysql:host=localhost;dbname=chri0163';
 
 //PDO: PHP Data Objects
 //Allows us to connect to many different kinds of databases
