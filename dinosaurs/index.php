@@ -9,6 +9,8 @@ SELECT id, dino_name, loves_meat, in_jurassic_park
 
 ');
 
+var_dump($db->errorInfo());
+
 $results = $sql-> fetchALL();
 
 ?> 
