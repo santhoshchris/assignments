@@ -5,11 +5,9 @@ require_once 'includes/db.php';
 $sql = $db-> query ('
 SELECT id, dino_name, loves_meat, in_jurassic_park
 	FROM dinosaurs
-    ORDER BY dino_name ASC);
+    ORDER BY dino_name ASC;
 
 ');
-
-var_dump($db->errorInfo());
 
 $results = $sql-> fetchALL();
 
@@ -25,7 +23,7 @@ $results = $sql-> fetchALL();
 	<?php foreach ($results as $dino): ?>
     <h2><?php echo $dino ['loves_meat'] ?> </dd>
     <dt>In Jurassic Park </dt>
-    <dd><?php echo $dino ['in_jurrassic_park']; ?> </dd>
+    <dd><?php echo $dino ['in_jurassic_park']; ?> </dd>
 </dl>
 <?php endforeach; ?>
 	
