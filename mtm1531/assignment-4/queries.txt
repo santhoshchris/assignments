@@ -1,0 +1,32 @@
+1. SELECT* 
+   FROM movies
+   WHERE id = 4
+
+
+
+2. SELECT*
+   FROM movies
+   ORDER BY title ASC
+
+
+
+3. SELECT title, director
+   FROM movies
+   ORDER BY release_date
+
+
+
+4. UPDATE movies
+   SET title = 'Rocky', director = 'John G. Avildsen'
+   WHERE id = 10
+
+
+
+5. INSERT INTO movies
+   (title, director,genre,language,country,lead_actors,writer,release_date)
+   VALUES ('The Lord of the Rings','Peter Jackson','Fantasy','English','New Zealand','Elijah Wood', 'Tolkien', 'December 19, 2001') 2001')
+
+
+
+6. DELETE FROM movies
+   WHERE id = 10
