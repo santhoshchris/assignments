@@ -1,7 +1,7 @@
 <?php
 
-error_reporting(-1);
-ini_set('display_errors', 'on');
+//error_reporting(-1);
+//ini_set('display_errors', 'on');
 
 require_once 'includes/db.php'; 
 
@@ -14,7 +14,7 @@ SELECT id, dino_name, loves_meat, in_jurassic_park
 
 $results = $sql-> fetchALL();
 
-var_dump($sql->errorInfo());
+//var_dump($sql->errorInfo());
 
 ?> 
 
@@ -26,7 +26,7 @@ var_dump($sql->errorInfo());
 </head>
 <body>
 	<?php foreach ($results as $dino): ?>
-    <h2><a href="single.php?id=<?php echo $dino ['id']; ?>">
+    <h2><a href="single.php?id=<?php echo $dino ['id']; ?>"></h2>
     <h2><?php echo $dino ['loves_meat'] ?> </dd>
     <dt>In Jurassic Park </dt>
     <dd><?php echo $dino ['in_jurassic_park']; ?> </dd>
