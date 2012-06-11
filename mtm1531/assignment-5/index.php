@@ -30,10 +30,10 @@ $results = $sql-> fetchALL();
 	
     <h2>
 	<dl>
-    	<dt>Loves Meat</dt>
-        <dt>1</dt>
-        <dt>In Jurassic Park</dt>
-        <dd>1</dd>
+    	<dt>Movie Title</dt>
+        <dt></dt>
+        <dt>Director/dt>
+        <dd></dd>
     </dl>
 
 </body>
