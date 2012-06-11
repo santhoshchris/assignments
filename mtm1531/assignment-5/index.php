@@ -21,7 +21,7 @@ $results = $sql-> fetchALL();
 </head>
 <body>
 	<?php foreach ($results as $movies): ?>
-    <h2><a href="single.php?id=<?php echo $movies['id']; ?>"></h2>
+    <h2><a href="single.php?id=<?php echo $movies['id']; ?>"> </a> </h2>
     <h2><?php echo $movies ['title'] ?> </dd>
     <dt>Release Date </dt>
     <dd><?php echo $movies ['release_date']; ?> </dd>
