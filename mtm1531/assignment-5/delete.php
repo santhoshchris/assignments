@@ -18,5 +18,4 @@ $sql-> prepare('DELETE FROM movies
 				$sql->execute(); 
 				
 				header('Location: index.php');
-				
-				exit;
+exit;

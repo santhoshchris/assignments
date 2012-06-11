@@ -9,7 +9,7 @@ $sql = $db->prepare('SELECT id, title, director, release_date,
 					WHERE id = :id
 					');
 					
-					$sql->bindvalue(':id', $id, PDO::PARAM_INT);
+					$sql->bindvalue(':id', $movies, PDO::PARAM_INT);
 					$sql->execute();
 					$results = $sql->fetch();
 		
