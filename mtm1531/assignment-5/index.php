@@ -20,11 +20,11 @@ $results = $sql-> fetchALL();
     <title>Movies</title>
 </head>
 <body>
-	<?php foreach ($results as $movie): ?>
-    <h2><a href="single.php?id=<?php echo $movie['id']; ?>"></h2>
-    <h2><?php echo $movie ['title'] ?> </dd>
+	<?php foreach ($results as $movies): ?>
+    <h2><a href="single.php?id=<?php echo $movies['id']; ?>"></h2>
+    <h2><?php echo $movies ['title'] ?> </dd>
     <dt>Release Date </dt>
-    <dd><?php echo $movie ['release_date']; ?> </dd>
+    <dd><?php echo $movies ['release_date']; ?> </dd>
 </dl>
 <?php endforeach; ?>
 	
