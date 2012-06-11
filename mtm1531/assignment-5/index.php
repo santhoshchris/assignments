@@ -9,7 +9,7 @@ SELECT id, title, director, release_date
 
 ');
 
-$results = $sql-> fetchALL();
+$results = $sql-> fetchAll();
 
 ?> 
 
