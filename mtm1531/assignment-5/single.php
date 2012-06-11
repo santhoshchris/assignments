@@ -6,12 +6,12 @@ $id = filter_input(INPUT_GET, 'id' , FILTER_SANITIZE_NUMBER_INT);
 
 $sql = $db->prepare('SELECT id, title, director, release_date,
 					FROM movies
-					WHEERE id = :id
+					WHERE id = :id
 					');
 					
 					$sql->bindvalue(':id', $id, PDO::PARAM_INT);
 					$sql->execute();
-					$results = $sql->fetchALL();
+					$results = $sql->fetch();
 		
 ?> 
 
@@ -30,7 +30,7 @@ $sql = $db->prepare('SELECT id, title, director, release_date,
 	<dt>Movie Title</dt>
     <dd><?php echo $results['director']; ?></dd>
     <dt>In Jurassic Park</dt>
-    <dd><?php echo $results ['release_date'];  var_dump($results); ?></dd>
+    <dd><?php echo $results ['release_date']; ?></dd>
     </dl>
     
      <a href="delete.php?id=<?php echo $id;?>">Delete</a>
