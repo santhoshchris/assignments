@@ -2,7 +2,7 @@
 
 require_once 'includes/db.php';
 
-$id = filter_input(INPUT_GET, 'id' , FILTER_SANITIZE_NUMBER_INT);
+$id = filter_input(INPUT_GET, 'title' , FILTER_SANITIZE_NUMBER_INT);
 $results = filter_input(INPUT_GET, 'id' , FILTER_SANITIZE_NUMBER_INT);
 
 $sql = $db->prepare('SELECT id, title, director, release_date,
