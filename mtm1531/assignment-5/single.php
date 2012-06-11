@@ -37,6 +37,6 @@ $sql = $db->prepare('SELECT id, title, director, release_date,
     
      <a href="delete.php?id=<?php echo $id;?>">Delete</a>
   
-
+d
 </body>
 </html>
