@@ -3,7 +3,7 @@
 require_once 'includes/db.php';
 
 $id = filter_input(INPUT_GET, 'id' , FILTER_SANITIZE_NUMBER_INT);
-
+$movies = filter_input(INPUT_GET, 'id' , FILTER_SANITIZE_NUMBER_INT);
 
 
 $sql = $db->prepare('SELECT id, title, director, release_date,
