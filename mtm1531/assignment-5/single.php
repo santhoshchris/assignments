@@ -2,7 +2,7 @@
 
 require_once 'includes/db.php';
 
-$id = filter_input(INPUT_GET, 'id' , FILTER_SANITIZE_NUMBER_INT);
+$results = filter_input(INPUT_GET, 'id' , FILTER_SANITIZE_NUMBER_INT);
 $sql = $db->prepare('SELECT id, title, director, release_date,
 					FROM movies
 					WHERE id = :id
@@ -37,6 +37,6 @@ $sql = $db->prepare('SELECT id, title, director, release_date,
     
      <a href="delete.php?id=<?php echo $id;?>">Delete</a>
   
-d
+
 </body>
 </html>
