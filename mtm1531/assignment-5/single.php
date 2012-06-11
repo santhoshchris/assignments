@@ -29,6 +29,9 @@ $sql = $db->prepare('SELECT id, title, director, release_date,
 <dl>
 	<dt>Movie Title</dt>
     <dd><?php echo $results['title']; ?></dd>
+    
+    <dt>Director</dt>
+     <dd><?php echo $results['director']; ?></dd>
     <dt>Release Date</dt>
     <dd><?php echo $results ['release_date']; ?></dd>
     </dl>
