@@ -32,7 +32,7 @@ $results = $sql-> fetchALL();
 	<dl>
     	<dt>Movie Title</dt>
         <dt></dt>
-        <dt>Director/dt>
+        <dt>Director</dt>
         <dd></dd>
     </dl>
 
