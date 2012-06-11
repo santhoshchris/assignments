@@ -3,6 +3,7 @@
 require_once 'includes/db.php';
 
 $id = filter_input(INPUT_GET, 'id' , FILTER_SANITIZE_NUMBER_INT);
+$movies = filter_input(INPUT_GET, 'id', FILTER_SANITIZE_NUMBER_INT);
 
 $sql = $db->prepare('SELECT id, title, director, release_date,
 					FROM movies
@@ -24,7 +25,7 @@ $sql = $db->prepare('SELECT id, title, director, release_date,
 
 <body>
 
-<h1><?php echo $results['title']; ?> </h1>
+<h1><?php echo $movies['title']; ?> </h1>
 
 <dl>
 	<dt>Movie Title</dt>
