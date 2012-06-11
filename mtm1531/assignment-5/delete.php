@@ -10,7 +10,7 @@ if (empty($id)) {
 }
 
 
-$sql-> prepare('DELETE FROM movies
+$sql = $db-> prepare('DELETE FROM movies
 				WHERE id = :id'
 				);
 				
