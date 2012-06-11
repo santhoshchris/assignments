@@ -11,7 +11,7 @@ $sql = $db->prepare('SELECT id, title, director, release_date,
 					
 					$sql->bindvalue(':id', $id, PDO::PARAM_INT);
 					$sql->execute();
-					$results = $sql->fetch();
+					$results = $sql = $db ->fetch();
 		
 ?> 
 
