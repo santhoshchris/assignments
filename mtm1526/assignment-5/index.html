@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>JS - Form Validation</title>
+	<link href="css/general.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="js/validator.js"></script>
+</head>
+<body>
+	<form>
+			<label for="username">Username:</label>
+			
+            <input id="username" name="username" required>
+			
+            <strong class="username-available" status="unchecked">Available</strong>
+            
+            <p>
+            
+			<label for="email">Email:</label>
+            
+			<input id="email" name="email" required>
+			
+            <strong class="email-available" status="unchecked">Available</strong>
+            
+            <p>
+            
+			<label for="password">Password:</label>
+            
+			<input type="password" id="password" name="password" required>
+			
+            <h4>Password Requirements:</h4>
+			
+            <ul class="passwordrequirements">
+				
+                <li class="pass-length">more than 6 characters</li>
+				
+                <li class="pass-lower">1 lower case letter</li>
+				
+                <li class="pass-upper">1 upper case letter</li>
+				
+                <li class="pass-num">1 number</li>
+				
+                <li class="pass-symbol">1 special character</li>
+                
+			</ul>
+        
+        <p>    
+
+			<label for="city">City</label>
+			<input id="city" name="city" required>
+			
+            <p>
+            
+
+			<fieldset>
+			  <legend>Country</legend>
+			  
+              <input type="radio" name="country" id="country" class="country" value="india">
+                
+		     <label for="india">India</label>
+				
+             <input type="radio" name="country" id="country" class="country" value="canada">
+				
+            <label for="canada">Canada</label>
+			
+            </fieldset>
+
+		<div id="address"></div>
+
+		<button type="submit">SUBMIT</button>
+
+	</form>

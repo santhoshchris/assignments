@@ -1,0 +1,50 @@
+.username-available:before {
+	font-size:30px;
+	content:"✔";
+}
+.email-available:before {
+	font-size:30px;
+	content:"✔";
+}
+
+
+
+#IndiaStates, #CanadaProvince {
+color:#F00;
+}
+
+
+[status="unchecked"] {
+	display:none;
+
+}
+
+
+[status="available"] {
+	color: #0C0;
+}
+
+[status="unavailable"] {
+	color: #F00;
+	
+}
+
+[status="unavailable"]:before {
+	font-size:30px;
+	content:"×";
+	color: #F00;
+}
+
+
+.passwordrequirements li:before {
+	font-size:30px;
+	color: #F00;
+	content:"×";
+
+}
+
+.passwordrequirements li[data-state="achieved"]:before {
+	color: #0C0;
+	content:"✔";
+
+}
